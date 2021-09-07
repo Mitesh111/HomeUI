@@ -1,0 +1,102 @@
+header.row{
+    display: flex;
+    flex-direction: column;
+}
+/*
+Navbar css
+*/
+.navbar{
+    display: inline-block;
+    background-color:white;
+    display: block;
+    overflow: hidden;
+}
+.navbar .icon {
+    display: none;
+  }
+.logo{
+    float: left;
+    height: 50px;
+    padding-left: 100px;
+}
+.navbar-left{
+    position: relative;
+}
+.navbar-right{
+    display: inline;
+    float: right;
+    padding-right: 100px;
+}
+div>a {
+    display: inline-block;
+    margin-right: 20px;
+}
+.box{
+    border: #827b7b;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 5px;
+}
+div>a:hover{
+    color: aqua;
+    cursor: pointer;
+}
+
+/*
+block css
+*/
+.card {
+    box-shadow: 0 0 10px 0 rgba(100, 100, 100, 0.26);
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+.card-sanitized{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+  .img-card {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+  }
+
+  .wrapper{
+    width: 100%;
+  }
+  .wrapper .carousel{
+    max-width: 100%;
+    margin:auto;
+    padding: 0 30px;
+  }
+  .carousel .card{
+      line-height: 150px;
+      text-align: center;
+      color: #fff;
+      font-size: 90px;
+      font-weight: 600;
+      margin:20px 0;
+      box-shadow: 0px 4px 15px rgba(0,0,0,0.2);
+  }
+   
+.hide{
+    display: none;
+}
+.heading-card:hover + .hide{
+    display: block;
+}
+
+.image-url:hover {
+    background: url(https://www.revv.co.in/imgs/whyrevv/7.jpg) !important;
+}
+li{
+    list-style: none
+}
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
